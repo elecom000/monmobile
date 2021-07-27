@@ -161,7 +161,7 @@ ApplicationWindow {
     WebView {
         id: webView
         anchors.fill: parent
-        url: "http://etelecom.pythonanywhere.com/monmobile"
+        url: "https://etelecom.pythonanywhere.com/monmobile"
         onLoadingChanged: {
             if (loadRequest.errorString)
                 console.error(loadRequest.errorString);
